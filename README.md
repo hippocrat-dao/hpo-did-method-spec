@@ -1,1 +1,0 @@
-# btc-did-method-spec
