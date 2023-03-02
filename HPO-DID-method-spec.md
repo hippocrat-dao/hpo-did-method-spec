@@ -54,11 +54,11 @@ HPO DID Document Example:
 
 
 ## 3. Security Considerations
-* DID Document and Identifier are created following bitcoin spec(bip32, bip44 and so on), using [hippocrat-wallet-sdk](https://github.com/hippocrat-protocol/hippocrat-wallet-sdk). 
+* DID Document and Identifier are created following bitcoin spec(bip32, bip44 and so on) using [hippocrat-wallet-sdk](https://github.com/hippocrat-protocol/hippocrat-wallet-sdk). 
 * Security level is same with bitcoin.
 
 ## 4. Privacy Considerations
-* Privacy data is stored using peer-to-peer storage, in an encrypted way(by hpo-did-specific-idstring, first public key hex).
+* Privacy data can be stored in peer-to-peer storage and must be encrypted by user's public key using [hippocrat-wallet-sdk](https://github.com/hippocrat-protocol/hippocrat-wallet-sdk).
 * DID document itself does not include any privacy information.
 
 ## References
