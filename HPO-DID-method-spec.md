@@ -49,7 +49,7 @@ HPO DID Document Example:
 
 #### Delete (Revoke)
 * Revoke by self can be simply done if user deletes in local.
-* If the issuer stores user's DID in public space(e.g. peer-to-peer storage), user can also request to delete from that space.
+* If the issuer stores the status of user's DID in public space(e.g. peer-to-peer storage), user can request to delete from that space.
 * Resolver will use either user's local storage or peer-to-peer storage to search.
 
 
