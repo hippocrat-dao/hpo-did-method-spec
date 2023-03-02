@@ -36,7 +36,7 @@ HPO DID Document Example:
 ## 2.2. CRUD
 
 #### Create
-* Create of HPO DID document is supported in [hippocrat-wallet-sdk](https://github.com/hippocrat-protocol/hippocrat-wallet-sdk).
+* Creation of HPO DID document is supported in [hippocrat-wallet-sdk](https://github.com/hippocrat-protocol/hippocrat-wallet-sdk).
 * HPO DID(or the data that can derive HPO DID) should be stored in user local storage.
 
 #### Read
@@ -48,8 +48,8 @@ HPO DID Document Example:
 * Update is not supported for HPO DID document.
 
 #### Delete (Revoke)
-* Revoke by self can be done if user deletes in local.
-* If the issuer stores user's DID in public space(like peer-to-peer storage), user can also request to delete from that space.
+* Revoke by self can be simply done if user deletes in local.
+* If the issuer stores user's DID in public space(e.g. peer-to-peer storage), user can also request to delete from that space.
 * Resolver will use either user's local storage or peer-to-peer storage to search.
 
 
